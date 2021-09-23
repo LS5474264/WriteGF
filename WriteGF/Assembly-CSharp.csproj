@@ -65,6 +65,7 @@
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\IReference.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePoolInfo.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/swt/Learning/WriteGF/WriteGF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
