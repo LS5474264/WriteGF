@@ -28,6 +28,7 @@ namespace GameFramework
             }
             
             s_GameFrameworkModules.Clear();
+            ReferencePool.ClearAll();
             
         }
     }
