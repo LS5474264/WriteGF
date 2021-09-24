@@ -5,7 +5,7 @@ namespace GameFramework
 {
     public static partial class Utility
     {
-        //没懂用途 先写了看看干了啥
+        //没懂用途 先写了看看干了啥，大概了解了下，是非托管堆内存
         public static class Marshal
         {
             private const int BlockSize = 1024 * 4;

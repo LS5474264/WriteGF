@@ -62,6 +62,9 @@
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkException.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkLinkedList.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkModule.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLog.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLog.ILogHelper.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLogLevel.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\IReference.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
