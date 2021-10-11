@@ -162,6 +162,12 @@ namespace GameFramework
             return false;
         }
 
+        public void Remove(LinkedListNode<T> node)
+        {
+            m_LinkedList.Remove(node);
+            ReleaseNode(node);
+        }
+
         private LinkedListNode<T> AcquireNode(T value)
         {
             LinkedListNode<T> node = null;

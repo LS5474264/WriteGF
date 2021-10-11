@@ -58,10 +58,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\BaseEventArgs.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\EventPool.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\EventPool.Event.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\EventPoolMode.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkEntry.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkEventArgs.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkException.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkLinkedList.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkLinkedListRange.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkModule.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\GameFrameworkMultiDictionary.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLog.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLog.ILogHelper.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\Log\GameFrameworkLogLevel.cs" />
@@ -69,6 +76,8 @@
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePoolInfo.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\UI\IUIManager.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\UI\UIManager.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Utility\Utility.Text.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Utility\Utility.Marshal.cs" />
  <Reference Include="Unity.Timeline.Editor">
