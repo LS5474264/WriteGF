@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\DataStruct\TypeNamePair.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\BaseEventArgs.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\EventPool.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\EventPool\EventPool.Event.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Base\ReferencePool\ReferencePoolInfo.cs" />
+     <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Fsm\FsmBase.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\UI\IUIManager.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\UI\UIManager.cs" />
      <Compile Include="Assets\UnityGameFramework\Libraries\GameFramework\Utility\Utility.Text.cs" />
